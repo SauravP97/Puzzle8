@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gamebg">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="290dp">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/grid1"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="40dp">
+
+            <Button
+                android:text="2"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:id="@+id/but2"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_weight="1" />
+            <Button
+                android:text="3"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:id="@+id/but3"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="4"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:id="@+id/but4"
+                android:layout_weight="1"
+                android:layout_row="1"
+                android:layout_column="0" />
+
+            <Button
+                android:text="5"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:id="@+id/but5"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_weight="1" />
+            <Button
+                android:text="6"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:id="@+id/but6"
+                android:layout_row="1"
+                android:layout_column="2"
+                android:layout_weight="0" />
+            <Button
+                android:text="7"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:id="@+id/but7"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:layout_weight="1" />
+            <Button
+                android:text="8"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:id="@+id/but8"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:layout_weight="0" />
+
+            <Button
+                android:text="0"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:id="@+id/but0"
+                android:layout_row="2"
+                android:layout_column="2"/>
+
+            <Button
+                android:text="1"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:id="@+id/but1"
+                android:layout_weight="1"
+                android:layout_row="0"
+                android:layout_column="0" />
+        </GridLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageButton
+            android:layout_width="111dp"
+            android:layout_height="152dp"
+            app:srcCompat="@drawable/baby"
+            android:layout_gravity="center"
+            android:id="@+id/Voice"
+            android:background="@drawable/baby" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/resultHere" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="91dp">
+
+        <Button
+            android:text="SHUFFLE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/shuf"
+            android:layout_gravity="center"
+            android:background="#F1AE95"
+            android:layout_marginLeft="140dp"
+             />
+    </LinearLayout>
+
+
+</LinearLayout>
